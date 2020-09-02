@@ -1,0 +1,73 @@
+{
+	"main_menu_index": {
+		"color": 0,
+		"products": 1,
+		"ideas": 2,
+		"professionals": 3,
+		"stores": 4
+	},
+	"megamenu_color_index": {
+		"overview": 0,
+		"find_your_color": 1,
+		"color_palettes": 2,
+		"color_insights": 3,
+		"diy_home_projects": 4
+	},
+	"megamenu_products_index": {
+		"overview": 0,
+		"product_catalog": 1,
+		"how_to_advice": 2,
+		"quality_begins_with_chemistry": 3
+	},
+	"megamenu_ideas_index": {
+		"overview": 0,
+		"diy_paint_products": 1,
+		"interiors": 2,
+		"exteriors": 3,
+		"designer_inspiration": 4
+	},
+	"megamenu_professionals_index": {
+		"contractors": 0,
+		"designers": 1,
+		"architects": 2,
+		"documentation": 3
+	},
+	"megamenu_stores_index": {
+		"overview": 0
+	},
+	"product": {
+		"index_product": [
+			1,
+			2,
+			0
+		],
+		"catalog_product": [
+			"Ultra Spec® 500 Interior Flat Finish Gallon NEW DAWN 133",
+			"075",
+			"ZWB100000001090569"
+		],
+		"account_product": [
+			"Ultra Spec® 500 Interior Flat Finish Gallon NEW DAWN 133",
+			"075",
+			"ZWB100000001090569"
+		]
+	},
+	"users": {
+		"guest": "guestemail@mailinator.com"
+	},
+	"language": {
+		"english": "ENGLISH",
+		"spanish": "ESPAGNOL",
+		"french": "FRANÇAIS"
+	},
+	"currency": {
+		"default_currency": "USD",
+		"canadian_dollar": "CAD",
+		"us_dollar": "USD",
+		"uk_pound": "GBP",
+		"euro": "EUR"
+	},
+	"misc": {
+		"": ""
+	}
+}

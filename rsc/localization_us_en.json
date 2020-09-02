@@ -1,0 +1,89 @@
+{
+	"page_title": {
+		"home": "Benjamin Moore Paints & Exterior Stains | Benjamin Moore",
+		"color_overview": "Color Overview | Benjamin Moore"
+	},
+	"registration": {
+		"success_header": "Registration Application Submitted!"
+	},
+	"error_message": {
+		"bad_credential": "Bad credential / Not Authorized. Try again.",
+		"customer_not_found": "PLEASE VERIFY THE INFORMATION AND TRY AGAIN"
+	},
+	"warning_message": {
+		"no_buy_permission": "This Sold To account does not have purchasing permissions."
+	},
+	"my_favorites": {
+		"success_item_added": "Successfully added to my favorites",
+		"failed_item_already_exist": "My favorites already contains this product.",
+		"deletion_message": "Product removed successfully"
+	},
+	"search": {
+		"no_result_found": "Sorry"
+	},
+	"contact_us": {
+		"confirmation_message": "Your contact us email has been sent."
+	},
+	"my_profile_menu": {
+		"sign_out": "Sign Out",
+		"my_favorites": "My Favorites",
+		"address_book": "Address Book",
+		"my_wallet": "My Wallet",
+		"personal_details": "Personal Details",
+		"order_history": "Order History"
+	},
+	"checkout": {
+		"err_invalid_credit_card": "Your payment was unsuccessful. Please select another saved payment option and enter the CVV, or add a new card.",
+		"checkout_page_header": "Secure Checkout"
+	},
+	"confirmation": {
+		"checkout_success": "Thank you for your Order!"
+	},
+	"profile": {
+		"address_no_saved_address_message": "There are no saved addresses",
+		"address_added_confirmation": "Your address was created.",
+		"address_update_confirmation": "Your address was updated.",
+		"default_address_update_confirmation": "Your default address was updated.",
+		"delete_address_confirmation": "Your address was removed.",
+		"profile_update_confirmation": "Your profile has been updated",
+		"credit_card_remove_confirmation": "Payment Card removed successfully",
+		"wallet_no_saved_payment_message": "There are no saved credit cards.",
+		"order_history_no_orders": "No orders found."
+	},
+	"my_company": {
+		"users_no_results_message": "No Results"
+	},
+	"cart": {
+		"cart_empty": "THERE ARE NO ITEMS IN YOUR CART."
+	},
+	"currency": {
+		"usa": "$"
+	},
+	"asm": {
+		"user_selection_header": "User Selection",
+		"logo_text": "Assisted Service Mode"
+	},
+	"navigation_endpoint": {
+		"home": "benjaminmoore.com",
+		"PageNotFound":"404",
+		"InternalServerError": "500",
+		"color": "color-overview", 
+		"products": "interior-exterior-paints-stains",
+		"ideas": "project-ideas-inspiration",
+		"stores": "store-locator",
+		"find_your_color": "color-overview/find-your-color",
+		"color_palettes": "color-overview/color-palettes",
+		"color_insights": "color-overview/color-insights",
+		"diy_home_projects":"project-ideas-inspiration/diy-home-projects",
+		"product_catalog":"interior-exterior-paints-stains/featured-products/interior-paints",
+		"how_to_advice":"interior-exterior-paints-stains/how-to-advice",
+		"quality_begins_with_chemistry":"interior-exterior-paints-stains/quality-begins-with-chemistry",
+		"interiors":"project-ideas-inspiration/interiors",
+		"exteriors":"project-ideas-inspiration/exteriors",
+		"designer_inspiration":"designers/designer-inspiration",
+		"contractors":"contractors",
+		"designers":"designers",
+		"architects":"architects",
+		"documentation":"documentation"
+	}
+}

@@ -1,0 +1,25 @@
+# Local Runtime Test Output - resultJsonOutputFile
+protractor_runtime_report
+protractor_runtime_report.json
+Report
+
+# Local Runtime Test Report
+allure-report/
+allure-results/
+
+# Local Runtime Test Log
+output/
+
+# Dependency directory
+node_modules/
+
+# Local Temp Test directory
+WIP_TEST/
+
+# idea directory
+.idea
+
+# conf.js
+conf.js
+
+package-lock.json
