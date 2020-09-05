@@ -1,5 +1,15 @@
 [
    {
+      "testcase":"TC_Find_your_Color",
+      "tc_description":"TC_Find_your_Color",
+      "description":"TC_Find_your_Color"      
+   },
+   {
+      "testcase":"TC_Color_A_Room",
+      "tc_description":"TC_Color_A_Room",
+      "description":"TC_Color_A_Room"      
+   },
+   {
       "testcase":"TC_Main_Menu_Color",
       "tc_description":"TC_Main_Menu_Color",
       "description":"TC_Main_Menu_Color"      
