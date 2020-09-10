@@ -169,5 +169,23 @@
       "testcase":"TC_Megamenu_professionals_contractors",
       "tc_description":"TC_Megamenu_professionals_contractors",
       "description":"TC_Megamenu_professionals_contractors"
+   },
+   {
+      "testcase":"Color_Collections",
+      "tc_description":"Color_Collections",
+      "description":"Color_Collections"
+   },
+   {
+      "testcase":"Color_Portfolio_App",
+      "tc_description":"Color_Portfolio_App",
+      "description":"Color_Portfolio_App"
+   },
+   {
+      "testcase":"Color_Collections_Favorite_Sign_In",
+      "tc_description":"Color_Collections_Favorite_Sign_In",
+      "description":"Color_Collections_Favorite_Sign_In"
    }
+   
+   
+   
 ]

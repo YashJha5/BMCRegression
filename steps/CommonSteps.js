@@ -34,6 +34,25 @@ exports.click_megamenu_color_model_menu_item_link = (index) => {
     CommonPage.div_megamenu_color_modal.all(by.tagName('a')).get(index).click();
 };
 
+
+
+exports.click_color_by_family = () => {
+    browser.wait(EC.elementToBeClickable(CommonPage.lnk_color_families), max_wait_time);
+    CommonPage.lnk_color_families.click();
+};
+ 
+exports.click_yellow_color = () => {
+    browser.wait(EC.elementToBeClickable(CommonPage.lnk_select_yellow_color), max_wait_time);
+    CommonPage.lnk_select_yellow_color.click();
+};
+exports.click_shade_in_yellow_color = () => {
+    browser.wait(EC.elementToBeClickable(CommonPage.lnk_select_shade_in_yellow_color), max_wait_time);
+    CommonPage.lnk_select_shade_in_yellow_color.click();
+};
+
+
+
+
 exports.click_megamenu_products_model_menu_item_link = (index) => {
     browser.wait(EC.elementToBeClickable(CommonPage.div_megamenu_paint_stain_modal), max_wait_time);
     CommonPage.div_megamenu_paint_stain_modal.all(by.tagName('a')).get(index).click();

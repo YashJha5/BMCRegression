@@ -1,11 +1,13 @@
 /*
-    Created By: jefrydenny on 2018-10-18
-    Last Update By: Anamul yaxley on 2018-10-18
+    Created By: Jogendra Singh on 2020-09-09
+    Last Update By: Jogendra Singh on 2020-09-09
 */
 
 'use strict';
 
-const CommonPage = Object.create({}, {
+const { browser } = require("protractor");
+
+const Color_Portfolio_App_Page = Object.create({}, {
     //// Code By KKJ
 
     // ------------------------------------------------------------------------------------------------------------------------
@@ -72,24 +74,58 @@ const CommonPage = Object.create({}, {
 
 
     
-    lnk_color_families: {
+    lnk_color_portfolio_app: {
         get() {
-            return browser.element(by.css('.row:nth-child(2) > .col-sm-6:nth-child(1) .title'));
+            return browser.element(by.css('.row:nth-child(3) > .col-sm-6:nth-child(2) .title'));
         },
     },
- 
-    lnk_select_yellow_color: {
+
+    lnk_color_portfolio_app_android: {
         get() {
-            return browser.element(by.css('.row:nth-child(1) > .col-xs-12:nth-child(1) > .family .column:nth-child(20) > .swatch:nth-child(3)'));
+            return browser.element(by.css('#global-content > div:nth-child(1) > div:nth-child(4) > div > div > div:nth-child(13) > p > a'));
         },
     },
-    lnk_select_shade_in_yellow_color: {
+    lnk_color_portfolio_app_iphone: {
         get() {
-            return browser.element(by.css('.swatch-row:nth-child(2) .column:nth-child(7) > .swatch'));
+            return browser.element(by.css('#global-content > div:nth-child(1) > div:nth-child(4) > div > div > div:nth-child(14) > p > a'));
         },
     },
+
+    lnk_color_portfolio_app_android_download_page: {
+        get() {
+            return browser.element(by.css('#gbq1 > div > a > img'));
+        },
+    },
+
+    lnk_color_portfolio_app_iphone_download_page: {
+        get() {
+            return browser.element(by.css('#ac-gn-firstfocus'));
+        },
+    },
+
+    lnk_color_portfolio_app_name_android_download_page: {
+        get() {
+            return browser.element(by.css('#fcxH9b > div.WpDbMd > c-wiz > div > div.ZfcPIb > div > div > main > c-wiz:nth-child(1) > c-wiz:nth-child(1) > div > div.D0ZKYe > div > div.sIskre > c-wiz:nth-child(1) > h1 > span'));
+        },
+    },
+
+    lnk_color_portfolio_app_name_iphone_download_page: {
+        get() {
+            return browser.element(by.css('#ember167 > div > div.l-column.small-7.medium-8.large-9.small-valign-top > header > h1'));
+        },
+    },
+    // lnk_color_portfolio_app_iphone_download_page: {
+    //     get() {
+    //         return browser.element(by.css('#global-content > div:nth-child(1) > div:nth-child(4) > div > div > div:nth-child(14) > p > a'));
+    //     },
+    // },
+
+    
+
+
+
 
     ////
 });
 
-module.exports = CommonPage;
+module.exports = Color_Portfolio_App_Page;

@@ -16,7 +16,12 @@ let global_is_mobile = false;
 // Default-Single Test to run
 //let default_test = 'tests/regression/main-menu/TC_Megamenu_Products_Overview.js';
 //let default_test = 'tests/regression/main-menu/mega-menu-products/TC_Megamenu_Products_Quality_Begins_With_Chemistry.js';
-let default_test = 'tests/regression/main-menu/mega-menu-color/TC_Megamenu_Color_Find_Your_Color.js';
+//let default_test = 'tests/regression/main-menu/mega-menu-color/TC_Megamenu_Color_Find_Your_Color.js';
+//let default_test = 'tests/regression/main-menu/mega-menu-color/TC_Megamenu_Color_Collections.js';
+//let default_test = 'tests/regression/main-menu/mega-menu-color/TC_Megamenu_Color_Portfolio_App.js';
+let default_test = 'tests/regression/main-menu/mega-menu-color/TC_Megamenu_Personal_Color_Viewer.js';
+
+
 
 exports.config = {
 
@@ -30,7 +35,7 @@ exports.config = {
     multiCapabilities: [{
         browserName: 'chrome',
         version: 'latest',
-        platform: 'Windows 10',
+        platform: 'Windows',
         name: "chrome-tests",
         chromeOptions: {
             args: ['disable-infobars','--no-sandbox']
