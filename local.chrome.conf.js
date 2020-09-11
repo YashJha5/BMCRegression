@@ -16,15 +16,19 @@ let global_is_mobile = false;
 // Default-Single Test to run
 //let default_test = 'tests/regression/main-menu/TC_Megamenu_Products_Overview.js';
 //let default_test = 'tests/regression/main-menu/mega-menu-products/TC_Megamenu_Products_Quality_Begins_With_Chemistry.js';
-let default_test = 'tests/regression/main-menu/mega-menu-color/TC_Megamenu_Color_Find_Your_Color.js';
-
+//let default_test = 'tests/regression/main-menu/mega-menu-color/TC_Megamenu_Color_Find_Your_Color.js';
+//let default_test = 'tests/regression/main-menu/mega-menu-color/TC_Colour_Brochure_Test.js'
+//let default_test = 'tests/regression/main-menu/mega-menu-color/TC_BestSelling_Color.js'
+//let default_test = 'tests/regression/main-menu/mega-menu-color/TC_Color_Palettes.js'
+//let default_test = 'tests/regression/main-menu/mega-menu-color/TC_CP_ColorFamilies.js'
+let default_test = 'tests/regression/main-menu/mega-menu-color/TC_CP_BluePaint.js'
 exports.config = {
 
     seleniumAddress: 'http://localhost:4444/wd/hub',
     //seleniumAddress: 'http://ondemand.saucelabs.com:80/wd/hub',
 
     specs: [default_test],
-    baseUrl: 'https://dev-www.benjaminmoore1.com/en-us',
+    baseUrl: 'https://www.benjaminmoore.com/en-us',
     directConnect: true,
 
     multiCapabilities: [{

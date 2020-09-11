@@ -5,6 +5,32 @@
       "description":"TC_Main_Menu_Color"      
    },
    {
+      "testcase":"TC_Colour_Brochure_Test",
+      "tc_description":"TC_Colour_Brochure_Test",
+      "description":"TC_Colour_Brochure_Test"      
+   },
+   {
+      "testcase":"TC_BestSelling_Color",
+      "tc_description":"TC_BestSelling_Color",
+      "description":"TC_BestSelling_Color"      
+   },
+   {
+      "testcase":"TC_CP_ColorFamilies",
+      "tc_description":"TC_CP_ColorFamilies",
+      "description":"TC_CP_ColorFamilies"      
+   },
+   {
+      "testcase":"TC_Color_Palettes",
+      "tc_description":"TC_Color_Palettes",
+      "description":"TC_Color_Palettes"      
+   },
+   
+   {
+      "testcase":"TC_CP_BluePaint",
+      "tc_description":"TC_CP_BluePaint",
+      "description":"TC_CP_BluePaint"      
+   },
+   {
       "testcase":"TC_Main_Menu_Products",
       "tc_description":"TC_Main_Menu_Products",
       "description":"TC_Main_Menu_Products"
