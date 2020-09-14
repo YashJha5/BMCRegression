@@ -30,51 +30,80 @@
       "tc_description":"TC_CP_BluePaint",
       "description":"TC_CP_BluePaint"      
    },
+   
+   {
+      "testcase":"TC_CP_MostPopular",
+      "tc_description":"TC_CP_MostPopular",
+      "description":"TC_CP_MostPopular"      
+   },
+   
+   {
+      "testcase":"TC_Color_Region",
+      "tc_description":"TC_Color_Region",
+      "description":"TC_Color_Region"      
+   },
+   {
+      "testcase":"TC_ColorOfYear",
+      "tc_description":"TC_ColorOfYear",
+      "description":"TC_ColorOfYear"      
+      
+   },
+   
    {
       "testcase":"TC_Main_Menu_Products",
       "tc_description":"TC_Main_Menu_Products",
       "description":"TC_Main_Menu_Products"
    },
+   
    {
       "testcase":"TC_Main_Menu_Ideas",
       "tc_description":"TC_Main_Menu_Ideas",
       "description":"TC_Main_Menu_Ideas"
    },
+   
    {
       "testcase":"TC_Main_Menu_Professionals",
       "tc_description":"TC_Main_Menu_Professionals",
       "description":"TC_Main_Menu_Ideas"
    },
+   
    {
       "testcase":"TC_Main_Menu_Stores",
       "tc_description":"TC_Main_Menu_Stores",
       "description":"TC_Main_Menu_Ideas"
    },
+   
    {
       "testcase":"TC_Megamenu_Color_Overview",
       "tc_description":"TC_Megamenu_Color_Overview",
       "description":"TC_Megamenu_Color_Overview"
    },
+   
    {
       "testcase":"TC_Megamenu_Color_Find_Your_Color",
       "tc_description":"TC_Megamenu_Color_Find_Your_Color",
       "description":"TC_Megamenu_Color_Find_Your_Color"
    },
+   
    {
       "testcase":"TC_Megamenu_Color_Palettes",
       "tc_description":"TC_Megamenu_Color_Palettes",
       "description":"TC_Megamenu_Color_Palettes"
    },
+   
    {
+   
       "testcase":"TC_Megamenu_Color_Insights",
       "tc_description":"TC_Megamenu_Color_Insights",
       "description":"TC_Megamenu_Color_Insights"
    },
+   
    {
       "testcase":"TC_Megamenu_Color_Diy_Home_Projects",
       "tc_description":"TC_Megamenu_Color_Diy_Home_Projects",
       "description":"TC_Megamenu_Color_Diy_Home_Projects"
    },
+   
    {
       "testcase":"TC_Megamenu_Color_Products_Overview",
       "tc_description":"TC_Megamenu_Color_Products_Overview",

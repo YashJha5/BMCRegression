@@ -21,7 +21,10 @@ let global_is_mobile = false;
 //let default_test = 'tests/regression/main-menu/mega-menu-color/TC_BestSelling_Color.js'
 //let default_test = 'tests/regression/main-menu/mega-menu-color/TC_Color_Palettes.js'
 //let default_test = 'tests/regression/main-menu/mega-menu-color/TC_CP_ColorFamilies.js'
-let default_test = 'tests/regression/main-menu/mega-menu-color/TC_CP_BluePaint.js'
+//let default_test = 'tests/regression/main-menu/mega-menu-color/TC_CP_BluePaint.js'
+//let default_test = 'tests/regression/main-menu/mega-menu-color/TC_CP_MostPopular.js'
+// let default_test = 'tests/regression/main-menu/mega-menu-color/TC_Color_Region.js'
+let default_test = 'tests/regression/main-menu/mega-menu-color/TC_ColorOfYear.js'
 exports.config = {
 
     seleniumAddress: 'http://localhost:4444/wd/hub',

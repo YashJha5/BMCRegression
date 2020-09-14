@@ -45,45 +45,42 @@ exports.mouse_click_on_learn_more_btn = () => {
      browser.sleep(5000);
  };
 
-// exports.mouse_hover_goes_with = (index) => {
-//     browser.wait(EC.elementToBeClickable(CP_BlueColorPage.goes_with_icon), max_wait_time);
-//       CP_BlueColorPage.goes_with_icon.click();
-//       browser.sleep(5000);
-// }
-// exports.mouse_hover_color_combinations = (index) => {
-//     browser.wait(EC.elementToBeClickable(CP_BlueColorPage.choose_color_combination), max_wait_time);
-//       CP_BlueColorPage.choose_color_combination.click();
-//       browser.sleep(5000);
-// }
+ exports.mouse_click_all_blue_paint = () => {
+     browser.wait(EC.elementToBeClickable(CP_BlueColorPage.all_blue_paint), max_wait_time);
+      CP_BlueColorPage.all_blue_paint.click();
+       browser.sleep(5000);
+ }
+ exports.mouse_click_blue_shades = () => {
+     browser.wait(EC.elementToBeClickable(CP_BlueColorPage.all_blue_shades))
+     CP_BlueColorPage.all_blue_shades.click();
+     browser.sleep(5000);
+ }
+exports.mouse_click_washington_blue = () => {
+    browser.wait(EC.elementToBeClickable(CP_BlueColorPage.choose_washington_blue), max_wait_time);
+      CP_BlueColorPage.choose_washington_blue.click();
+      browser.sleep(5000);
+}
 
-// exports.mouse_hover_next_btn = () => {
-//      browser.wait(EC.elementToBeClickable(CP_BlueColorPage.click_next_btn), max_wait_time);
-//        CP_BlueColorPage.click_next_btn.click();
-//        browser.sleep(5000);
-//  }
+exports.mouse_click_see_in_room = () => {
+    browser.wait(EC.elementToBeClickable(CP_BlueColorPage.see_in_room), max_wait_time);
+      CP_BlueColorPage.see_in_room.click();
+      browser.sleep(5000);
+}
+exports.mouse_click_room_type = () => {
+    browser.wait(EC.elementToBeClickable(CP_BlueColorPage.room_type), max_wait_time);
+      CP_BlueColorPage.room_type.click();
+      browser.sleep(5000);
+}
 
-// exports.mouse_click_see_room = () => {
-//     browser.wait(EC.elementToBeClickable(CP_BlueColorPage.click_see_room_btn), max_wait_time);
-//     CP_BlueColorPage.click_see_room_btn.click();
-//     browser.sleep(5000);
-// }
+exports.mouse_click_room_space = () => {
+     browser.wait(EC.elementToBeClickable(CP_BlueColorPage.click_room_space), max_wait_time);
+       CP_BlueColorPage.click_room_space.click();
+       browser.sleep(5000);
+ }
 
-// exports.mouse_click_room_type = () => {
-//     browser.wait(EC.elementToBeClickable(CP_BlueColorPage.click_room_type), max_wait_time);
-//     CP_BlueColorPage.click_room_type.click();
-// }
+exports.mouse_click_info_icon = () => {
+    browser.wait(EC.elementToBeClickable(CP_BlueColorPage.click_info_icon), max_wait_time);
+    CP_BlueColorPage.click_info_icon.click();
+    browser.sleep(5000);
+}
 
-// exports.mouse_click_room_space = () => {
-//     browser.wait(EC.elementToBeClickable(CP_BlueColorPage.click_room_space), max_wait_time);
-//     CP_BlueColorPage.click_room_space.click();
-// }
-
-// exports.mouse_click_info_icon = () => {
-//     browser.wait(EC.elementToBeClickable(CP_BlueColorPage.click_info_icon), max_wait_time);
-//     CP_BlueColorPage.click_info_icon.click();
-// }
-
-// exports.mouse_click_popup_info_icon = () => {
-//     browser.wait(EC.elementToBeClickable(CP_BlueColorPage.click_popup_info_icon),max_wait_time);
-//     CP_BlueColorPage.click_popup_info_icon.click();
-// }

@@ -66,42 +66,39 @@ describe('STORY: MEGAMENU COLOR OVERVIEW', () => {
           CP_BlueColorSteps.mouse_click_on_learn_more_btn();
         });    
         
-        // executeStep('STEP ' + global.step_counter++ +' : MOUSE HOVER AND CLICK ON LINK: BLUE COLOR FAMILY INFO ICON',() => {
-        //    CP_BlueColorSteps.mouse_click_on_color_info_icon();
-        // });    
-        // executeStep('ASSERT ' + global.assert_counter++ + ': LIGHT REFLECTION VALUE TEXT VISIBLE', () => {
-        //      assert.is_element_displayed(CP_BlueColorpage.add_favourite_icon);
-        //      //browser.sleep(2000)
-        // });       
-        // executeStep('STEP ' + global.step_counter++ +' : MOUSE HOVER AND CLICK ON LINK: GOES WITH ',() => {
-        //    CP_BlueColorSteps.mouse_hover_goes_with();
-        //        }); 
-        // executeStep('STEP ' + global.step_counter++ +' : MOUSE HOVER AND CLICK ON LINK: CHOOSE COLOR COMBINATION',() => {
-        //    CP_BlueColorSteps.mouse_hover_color_combinations();
-        //         });   
-        // executeStep('STEP ' + global.step_counter++ +' : MOUSE HOVER AND CLICK ON LINK: NEXT BUTTON',() => {
-        //     CP_BlueColorSteps.mouse_hover_next_btn();
-        //         });  
-        // executeStep('STEP ' + global.step_counter++ +' : MOUSE HOVER AND CLICK ON LINK: SEE A ROOM',() => {
-        //    CP_BlueColorSteps.mouse_click_see_room();
-        //         });  
+        executeStep('STEP ' + global.step_counter++ +' : MOUSE HOVER AND CLICK ON LINK: SEE ALL BLUE PAINTS',() => {
+            CP_BlueColorSteps.mouse_click_all_blue_paint();
+         });
+         
+        executeStep('STEP ' + global.step_counter++ +' : MOUSE HOVER AND CLICK ON LINK: SEE ALL BLUE SHADES',() => {
+            CP_BlueColorSteps.mouse_click_blue_shades();
+         });
+
+        executeStep('STEP ' + global.step_counter++ +' : MOUSE HOVER AND CLICK ON LINK: SEE ALL BLUE SHADES',() => {
+            CP_BlueColorSteps.mouse_click_washington_blue();
+         });
+
+        executeStep('STEP ' + global.step_counter++ +' : MOUSE HOVER AND CLICK ON LINK: SEE A ROOM',() => {
+            CP_BlueColorSteps.mouse_click_see_in_room();
+         });
         
-        // executeStep('STEP ' + global.step_counter++ +' : MOUSE HOVER AND CLICK ON LINK: SELECT A ROOM',() => {
-        //    CP_BlueColorSteps.mouse_click_room_type();
-        //         });  
-        // executeStep('STEP ' + global.step_counter++ +' : MOUSE HOVER AND CLICK ON LINK: SELECT A ROOM SPACE',() => {
-        //    CP_BlueColorSteps.mouse_click_room_space();
-        //         });
-        // executeStep('STEP ' + global.step_counter++ +' : MOUSE HOVER AND CLICK ON LINK: CLICK ON INFO ICON',() => {
-        //    CP_BlueColorSteps.mouse_click_info_icon();
-        //         });   
-        // executeStep('STEP ' + global.step_counter++ +' : MOUSE HOVER AND CLICK ON LINK: CLICK ON POP-UP INFO ICON',() => {
-        //    CP_BlueColorSteps.mouse_click_popup_info_icon();
-        //         });
-        // executeStep('ASSERT ' + global.assert_counter++ + ': LIGHT REFLECTION VALUE TEXT VISIBLE', () => {
-        //     assert.is_element_displayed(CP_BlueColorpage.light_reflection_value);
-        //     //browser.sleep(2000)
-        //         });   
+        executeStep('STEP ' + global.step_counter++ +' : MOUSE HOVER AND CLICK ON LINK: ROOM TYPE',() => {
+            CP_BlueColorSteps.mouse_click_room_type();
+         });
+
+        executeStep('STEP ' + global.step_counter++ +' : MOUSE HOVER AND CLICK ON LINK: ROOM SPACE',() => {
+            CP_BlueColorSteps.mouse_click_room_space();
+         });
+        
+        executeStep('STEP ' + global.step_counter++ +' : MOUSE HOVER AND CLICK ON LINK: INFO ICON',() => {
+            CP_BlueColorSteps.mouse_click_info_icon();
+         });
+        
+        executeStep('ASSERT ' + global.assert_counter++ + ': WASHINGTOON BLUE VISIBLE', () => {
+             assert.is_element_displayed(CP_BlueColorpage.text_washingtoon_blue);
+             //browser.sleep(2000)
+        });       
+        
         });
     
        
