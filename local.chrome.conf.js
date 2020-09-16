@@ -24,14 +24,16 @@ let global_is_mobile = false;
 //let default_test = 'tests/regression/main-menu/mega-menu-color/TC_CP_BluePaint.js'
 //let default_test = 'tests/regression/main-menu/mega-menu-color/TC_CP_MostPopular.js'
 // let default_test = 'tests/regression/main-menu/mega-menu-color/TC_Color_Region.js'
-let default_test = 'tests/regression/main-menu/mega-menu-color/TC_ColorOfYear.js'
+//let default_test = 'tests/regression/main-menu/mega-menu-color/TC_ColorOfYear.js'
+//let default_test = 'tests/regression/main-menu/mega-menu-color/TC_Featured_Interior_Paint.js'
+let default_test = 'tests/regression/main-menu/mega-menu-color/TC_Product_Catlog.js'
 exports.config = {
 
     seleniumAddress: 'http://localhost:4444/wd/hub',
     //seleniumAddress: 'http://ondemand.saucelabs.com:80/wd/hub',
 
     specs: [default_test],
-    baseUrl: 'https://www.benjaminmoore.com/en-us',
+    baseUrl: 'https://dev-www.benjaminmoore1.com/en-us',
     directConnect: true,
 
     multiCapabilities: [{

@@ -14,6 +14,12 @@
       "tc_description":"TC_BestSelling_Color",
       "description":"TC_BestSelling_Color"      
    },
+   
+   {
+      "testcase":"TC_Featured_Interior_Paint",
+      "tc_description":"TC_Featured_Interior_Paint",
+      "description":"TC_Featured_Interior_Paint"      
+   },
    {
       "testcase":"TC_CP_ColorFamilies",
       "tc_description":"TC_CP_ColorFamilies",
@@ -46,9 +52,20 @@
       "testcase":"TC_ColorOfYear",
       "tc_description":"TC_ColorOfYear",
       "description":"TC_ColorOfYear"      
-      
    },
    
+   {
+      "testcase":"TC_Product_Catlog",
+      "tc_description":"TC_Product_Catlog",
+      "description":"TC_Product_Catlog",
+      "username": "pranay.khandelwal@celebaltech.com",
+      "password": "passw0rd" ,
+      "country":[
+         "US",
+         "/us_en/",
+         "US-EN" ]   
+   },
+
    {
       "testcase":"TC_Main_Menu_Products",
       "tc_description":"TC_Main_Menu_Products",

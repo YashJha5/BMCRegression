@@ -218,3 +218,17 @@
 [0913/000803.986:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
 [0913/000804.009:ERROR:exception_snapshot_win.cc(99)] thread ID 10720 not found in process
 [0913/000804.009:ERROR:exception_snapshot_win.cc(99)] thread ID 9864 not found in process
+[0914/221243.247:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[0915/154232.861:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[0915/224547.511:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0915/224547.514:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0915/224547.614:ERROR:exception_snapshot_win.cc(99)] thread ID 4952 not found in process
+[0915/224547.533:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0915/224547.614:ERROR:exception_snapshot_win.cc(99)] thread ID 22136 not found in process
+[0915/224547.614:ERROR:exception_snapshot_win.cc(99)] thread ID 15512 not found in process
+[0915/224548.179:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0915/224548.179:ERROR:exception_snapshot_win.cc(99)] thread ID 10624 not found in process
+[0915/224548.550:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0915/224548.550:ERROR:exception_snapshot_win.cc(99)] thread ID 17976 not found in process
+[0915/224548.632:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0915/224548.633:ERROR:exception_snapshot_win.cc(99)] thread ID 21632 not found in process
