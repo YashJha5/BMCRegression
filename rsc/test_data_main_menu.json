@@ -67,6 +67,29 @@
    },
 
    {
+      "testcase":"TC_Product_Catlog2",
+      "tc_description":"TC_Product_Catlog2",
+      "description":"TC_Product_Catlog2",
+      "username": "pranay.khandelwal@celebaltech.com",
+      "password": "passw0rd" ,
+      "country":[
+         "US",
+         "/us_en/",
+         "US-EN" ]   
+   },
+   
+   {
+      "testcase":"TC_Personal_Color_Palettes",
+      "tc_description":"TC_Personal_Color_Palettes",
+      "description":"TC_Personal_Color_Palettes",
+      "username": "pranay.khandelwal@celebaltech.com",
+      "password": "passw0rd" ,
+      "country":[
+         "US",
+         "/us_en/",
+         "US-EN" ]   
+   },
+   {
       "testcase":"TC_Main_Menu_Products",
       "tc_description":"TC_Main_Menu_Products",
       "description":"TC_Main_Menu_Products"

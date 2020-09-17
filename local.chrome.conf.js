@@ -26,7 +26,9 @@ let global_is_mobile = false;
 // let default_test = 'tests/regression/main-menu/mega-menu-color/TC_Color_Region.js'
 //let default_test = 'tests/regression/main-menu/mega-menu-color/TC_ColorOfYear.js'
 //let default_test = 'tests/regression/main-menu/mega-menu-color/TC_Featured_Interior_Paint.js'
-let default_test = 'tests/regression/main-menu/mega-menu-color/TC_Product_Catlog.js'
+//let default_test = 'tests/regression/main-menu/mega-menu-color/TC_Product_Catlog.js'
+//let default_test= 'tests/regression/main-menu/mega-menu-color/TC_Product_Catlog2.js'
+let default_test = 'tests/regression/main-menu/mega-menu-color/TC_Personal_Color_Palettes.js'
 exports.config = {
 
     seleniumAddress: 'http://localhost:4444/wd/hub',
